@@ -6,4 +6,4 @@ Jugando con los datos y ficheros obtenidos, y mediante un conjunto de scripts de
 
 La información de estos datasets la he resumido en un Dashborad de Power BI, mostrándolo todo de forma interactiva y vistosa.
 
-Si quereis, también vuestro Strava Dashboard, habladme y lo vemos ;)
+Si queréis también vuestro Strava Dashboard, decidme y lo vemos ;)
