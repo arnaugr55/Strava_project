@@ -5,3 +5,5 @@ En este proyecto, he descargado mi información de Strava en el enlace https://w
 Jugando con los datos y ficheros obtenidos, y mediante un conjunto de scripts de Python, he creado unos cuantos datasets.
 
 La información de estos datasets la he resumido en un Dashborad de Power BI, mostrándolo todo de forma interactiva y vistosa.
+
+Si quereis, también vuestro Strava Dashboard, habladme y lo vemos ;)
