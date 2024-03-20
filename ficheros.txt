@@ -1,0 +1,30 @@
+Organización de las carpetas y ficheros
+
+CARPETA RAÍZ
+(Tener creados)
+- script_principal.py
+- activities_csv.py
+- create_json_gpx.py
+- poblacions.py
+- poblacions.csv (al crerarse, se copia la columna Activity ID de activities.csv y se pega en poblacions.csv)	
+
+
+(Generados tras ejecutar los scripts)
+- mountains.csv
+- poblacions2.csv
+- poblacions3.csv
+- gpx_prova
+
+(Se deben crear posteriormente para Power BI)
+- powerbi_datasets (Los datasets poblacions.csv, activities.csv, mountains.csv, poblacions2.csv y poblacions3.csv son guardados en este excel para luego ser leídos en Power BI)
+
+
+
+
+CARPETA CATALUNYA_MAPS (Mapas de Cataluña que usamos para Power BI. Obtenidos de https://administraciodigital.gencat.cat/ca/detalls/noticia/230807_divisions_administratives)
+
+
+CARPETA MOUNTAINS (Contiene 3 ficheros con listas de cimas de la Península. Obtenido vía Mendikat)
+
+
+CARPETA STRAVA_DOWNLOADED (Contiene los datos descargados de Strava)
