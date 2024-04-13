@@ -1,4 +1,4 @@
-# Modifica el activities.csv obtenido en el script_principal, ajustando algunos campos
+# Modifica el activities.csv, adaptando algunos campos para el Dashboard de PowerBi
 
 import pandas as pd
 import pytz
