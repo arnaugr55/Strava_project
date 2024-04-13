@@ -51,7 +51,6 @@ start_time = time.time()
 # Iteramos cada fichero gpx
 for filename in os.listdir(folder_path):
     print("Filename:", filename)
-    # filename = "4780191154.gpx" (prueba)
     file_path = os.path.join(folder_path, filename)
     prev_coords = None # Se usa, para calcular la distancia acumulada
 
