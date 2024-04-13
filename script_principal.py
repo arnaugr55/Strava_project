@@ -43,11 +43,11 @@ def read_gpx_file(file_path):
 def is_coordinate_in_gpx(target_latitude, target_longitude, possible_peaks):
     '''
     Obtiene un documento gpx con las montañas mas importantes de la península
-    Si es la primera vez (de la ruta) que está función es llamada, devolverá las posibles montañas que, por proximidad, se podrían hacer en la ruta (possible_peaks)
+    Si es la primera vez (de la ruta) que está función es llamada, devolverá las posibles montañas que, por proximidad, se podrían hacerse en la ruta (possible_peaks)
     Si no, busca si la latitud y longitud actuales están suficientemente cerca de unos de las montañas guardados en possible_peaks. Si es así, devuelve la montaña
     :param target_latitude: Latitud actual
     :param target_longitude: Longitud actual
-    :param possible_peaks: Lista de possibles montañas en la ruta. Para cada posible montaña gaurda la lat,long,nombre y altitud
+    :param possible_peaks: Lista de possibles montañas en la ruta. Para cada posible montaña guarda la lat,long,nombre y altitud
     '''
     gpx_file_path = 'Mountains//Mendikat_1.gpx'
     zone_tolerance = 0.2  # Umbral de proximidad para guardar una montaña en possible_peaks
@@ -116,7 +116,7 @@ def calculate_acc_elevation(segment, entered_point):
 folder_path = 'Strava_downloaded_2//activities'
 # Fichero activites.csv
 dataset = pd.read_csv('Strava_downloaded_2//activities.csv')
-# El código se ejecuta en tramos. Tenemos que definir si es la primera ejecución o no
+# Para evitar errores, el código se ejecuta en tramos. Tenemos que definir si es la primera ejecución o no
 first_exeuction = False
 
 if first_exeuction:
@@ -133,7 +133,7 @@ else:
 
 start_time = time.time()
 
-# Vamos a procesar de la actividad 'begin', hasta la 'end'
+# Vamos a procesar de la actividad 'begin', hasta la 'end' (se recomineda de 20 en 20 actividades)
 begin = 0
 end = 20
 # Iteramos todos los ficheros de la carpeta de GPXs
@@ -146,7 +146,6 @@ for ind,filename in enumerate(os.listdir(folder_path)[begin:end]):
 
     file_date = int(gpx_data.time.strftime("%Y%m%d"))  # se usa para ir actualizando los datos
     if file_date > 20240121:
-        # filename = "9570811158.gpx" (prueba)
         if os.path.isfile(file_path):
             print("\n", "Filename:", filename)
 
@@ -217,7 +216,7 @@ for ind,filename in enumerate(os.listdir(folder_path)[begin:end]):
 
                     prev_coords = current_coords
 
-                # En caso de que en la ruta/actividad hayamos subida alguna montaña, la/s guardamos en el mountains_df
+                # En caso de que en la ruta/actividad hayamos subido a alguna montaña, la/las guardamos en el mountains_df
                 if mountains:
                     for mt, info in mountains.items():
                         mountains_df = mountains_df.append({'Mountain': mt,
