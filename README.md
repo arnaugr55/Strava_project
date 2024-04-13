@@ -6,4 +6,4 @@ Jugando con los datos y ficheros obtenidos, y mediante un conjunto de scripts de
 
 La información de estos datasets la he resumido en un Dashboard de Power BI, mostrándolo todo de forma interactiva y vistosa.
 
-Si queréis también vuestro Strava Dashboard, decidme y lo vemos ;)
+Hgao una mención a Mendikat y a Javi Urrutia, el cúal gracias a su Inventario de Cimas, he podido añadir información de las montañas subidas 
