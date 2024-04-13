@@ -13,18 +13,19 @@ CARPETA RAÍZ
 - mountains.csv
 - poblacions2.csv
 - poblacions3.csv
-- gpx_prova
+- gpx_prova.json
 
 (Se deben crear posteriormente para Power BI)
-- powerbi_datasets (Los datasets poblacions.csv, activities.csv, mountains.csv, poblacions2.csv y poblacions3.csv son guardados en este excel para luego ser leídos en Power BI)
+- powerbi_datasets-xlsx (Los datasets poblacions.csv, activities.csv, mountains.csv, poblacions2.csv y poblacions3.csv son guardados en este excel para luego ser leídos en Power BI)
 
 
 
 
-CARPETA CATALUNYA_MAPS (Mapas de Cataluña que usamos para Power BI. Obtenidos de https://administraciodigital.gencat.cat/ca/detalls/noticia/230807_divisions_administratives)
+CARPETA CATALUNYA_MAPS (Mapas de Cataluña que usamos para Power BI). Obtenidos de https://administraciodigital.gencat.cat/ca/detalls/noticia/230807_divisions_administratives
 
 
 CARPETA MOUNTAINS (Contiene 3 ficheros con listas de cimas de la Península. Obtenido vía Mendikat)
-
+https://mendiak.net/viewtopic.php?t=59865
+https://mega.nz/#F!4Q1H1aoa!ywZ-gkXuKbnj5OJIiAT87w
 
 CARPETA STRAVA_DOWNLOADED (Contiene los datos descargados de Strava)
