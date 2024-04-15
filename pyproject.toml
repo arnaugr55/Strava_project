@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "strava project"
+version = "0.1.0"
+description = ""
+authors = ["Arnau Garriga Riba <agarrigariba@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+geopy = "^2.4.1"
+pandas = "^2.2.2"
+gpxpy = "^1.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
