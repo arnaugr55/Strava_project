@@ -6,7 +6,7 @@ CARPETA RAÍZ
 - activities_csv.py
 - create_json_gpx.py
 - poblacions.py
-- poblacions.csv (al crerarse, se copia la columna Activity ID de activities.csv y se pega en poblacions.csv)	
+- poblacions.csv (al crearse, se copia la columna Activity ID de activities.csv y se pega en poblacions.csv)	
 
 
 (Generados tras ejecutar los scripts)
@@ -16,7 +16,7 @@ CARPETA RAÍZ
 - gpx_prova.json
 
 (Se deben crear posteriormente para Power BI)
-- powerbi_datasets-xlsx (Los datasets poblacions.csv, activities.csv, mountains.csv, poblacions2.csv y poblacions3.csv son guardados en este excel para luego ser leídos en Power BI)
+- powerbi_datasets.xlsx (Los datasets poblacions.csv, activities.csv, mountains.csv, poblacions2.csv y poblacions3.csv son guardados en este excel para luego ser leídos en Power BI)
 
 
 
