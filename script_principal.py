@@ -113,9 +113,9 @@ def calculate_acc_elevation(segment, entered_point):
 # Configuraciones
 
 # Carpeta donde están los gpxs de las actividades
-folder_path = 'Strava_downloaded_2//activities'
+folder_path = 'Strava_downloaded//activities'
 # Fichero activites.csv
-dataset = pd.read_csv('Strava_downloaded_2//activities.csv')
+dataset = pd.read_csv('Strava_downloaded//activities.csv')
 # Para evitar errores, el código se ejecuta en tramos. Tenemos que definir si es la primera ejecución o no
 first_exeuction = False
 
